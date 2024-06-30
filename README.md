@@ -1,4 +1,3 @@
-RIPV2
-Acest proiect implementează un router RIP (Routing Information Protocol) în limbajul Python. Routerul este capabil să gestioneze tabelele de rutare și să comunice cu alte routere folosind pachete RIP conform specificațiilor protocolului.
+RIPV2: This project implements a RIP (Routing Information Protocol) router in Python. The router can manage routing tables and communicate with other routers using RIP packets according to the protocol specifications.
 
-De asemenea, proiectul utilizează socket-uri UDP pentru comunicarea prin intermediul interfețelor de rețea configurate și implementează fire de execuție pentru tratarea pachetelor primite și gestionarea timerelor pentru actualizarea și eliminarea rutelor.
+Additionally, the project uses UDP sockets for communication through configured network interfaces and implements threading to handle received packets and manage timers for updating and removing routes.
